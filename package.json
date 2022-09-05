@@ -1,0 +1,27 @@
+{
+  "name": "frontend-mentor",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Challenges Repo",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass ./interactive-rating-component-main/sass/main.scss ./interactive-rating-component-main/css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pieris128/Frontend-Mentor-Components.git"
+  },
+  "author": "Matias Pier Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pieris128/Frontend-Mentor-Components/issues"
+  },
+  "homepage": "https://github.com/Pieris128/Frontend-Mentor-Components#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
